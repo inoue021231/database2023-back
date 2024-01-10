@@ -1,0 +1,9 @@
+CREATE DATABASE tododata;
+
+DROP TABLE IF EXISTS タスク;
+CREATE TABLE タスク (
+    ID INTEGER PRIMARY KEY,
+    タスク内容 TEXT NOT NULL,
+    日時 DATE NOT NULL,
+    ステータス TEXT NOT NULL
+);
